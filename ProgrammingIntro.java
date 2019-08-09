@@ -1,23 +1,22 @@
-public class ProgrammingIntro {
-public static void main(String[] args) {
-    System.out.println("Hello World!");
+public class programmingintro {
+    public static void main(String[] args ) {
+        System.out.println("Hello World!");
+  
+  int result = myFunction(5, 10);
+  System.out.println(result);
 
-    int result = myFunction(5, 10);
-    System.out.println(result);
-
-    // int thisIsAVariable =10;
-    // double decimalNumber = 13.95;
-    // boolean trueOrFalce = true;
-    // char aLetter = 'E';
-    // String someText = "EUReKA!";
-
-    // System.out.println(thisIsAVariable);
-    // System.out.println(decimalNumber);
-    // System.out.println(trueOrFalce);
-    // System.out.println(aLetter);
-    // System.out.println(someText);
+//   int thisisavariable=10;
+//   double decimalnumber = 13.95;
+//   boolean trueorfalse = true;
+//   char aletter = 'e';
+//   string sometext = eureka!;
+//   system.out.println(thisisavariable);
+//   system.out.println(decimalnumber);
+//   system.out.println(trueorfalse);
+//   system.out.println(aletter);
+//   system.out.println(sometext);
 }
-public static int myFunction(int numberOne, int numberTwo){   
+public static int myFunction(int numberOne,int numberTwo){
     return numberOne* numberTwo;
 }
 }
