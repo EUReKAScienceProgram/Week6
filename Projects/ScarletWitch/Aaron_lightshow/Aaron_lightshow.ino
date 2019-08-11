@@ -25,65 +25,32 @@ void setup() {
 
 void loop() {
   // THIS IS WHERE WE WILL PUT OUR CODE
-
-  switchColour("Blue");
-  switchColour("Green");
-  switchColour("Red");
-  switchColour("Yellow");
-  setRGBColour(0, 0,255);
+int randValue = random(0,2);
+if (randValue == 0) {
+  setRBGColour (255, 0, 0);
   delay(1000);
+}else {
+  for(int i=0; i< 10; i++) {
+    setRBGColour(random(0,255), random(0,255), random(o,255));
+    delay(100);
+  }
   
   
+}
+switchColour("Blue");
+switchColour("Green");
+switchColour("Red");
+switchColour("Yellow");
+setRBGColour(0, 0, 255);
 
-  switchColour("Blue");
-  switchColour("Green");
-  switchColour("Red");
-  switchColour("Yellow");
-  delay(1000);
+delay(1000);
 
-  switchColour("Blue");
-  switchColour("Green");
-  switchColour("Red");
-  switchColour("Yellow");  
-  delay(1000);
+switchColour("Blue");
+switchColour("Green");
+switchColour("Red");
+switchColour("Yellow");
 
-  switchColour("Blue");
-  delay(1000);
-  switchColour("Green");
-  delay(1000);
-  switchColour("Red");
-  delay(1000);
-  switchColour("Yellow");
-  delay(1000);
-  
-  switchColour("Blue");
-  switchColour("Green");
-  delay(800);
-  switchColour("Red");
-  switchColour("Yellow"); 
-  delay(800);
-
-  switchColour("Green");
-  switchColour("Red");
-  delay(800);
-
-  switchColour("Blue");
-  switchColour("Green");
-  switchColour("Red");
-  switchColour("Yellow");
-  delay(800);
-
-  
-  
-  
-  
-
-  
-
-  
-  
-
-  
+delay(1000);
 
 }
 
